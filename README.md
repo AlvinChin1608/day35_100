@@ -14,7 +14,7 @@ To keep sensitive information secure, such as API keys and authentication tokens
 
 or 
 
-Get on the IDE terminal and type export API="123" and then simply type env to check. Import the OS module and to call it simply type in os.environ.get(API). Be aware that GitHub will automatically decline the upload to prevent your secret key being leak. 
+Get on the IDE terminal and type export API="123" and then simply type env to check. Import the OS module and to call it simply type in os.environ.get("API"). Be aware that GitHub will automatically decline the upload to prevent your secret key being leak. 
 
 3. __Making API Requests with requests__
 I used the requests library to make API calls to the OpenWeatherMap API. By sending parameters such as latitude, longitude, and API key, I retrieved weather data in JSON format.
