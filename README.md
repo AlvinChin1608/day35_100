@@ -23,4 +23,4 @@ I used the requests library to make API calls to the OpenWeatherMap API. By send
 I learned to parse JSON data to extract specific weather conditions. I checked if the weather condition codes indicated rain within the next 12 hours.
 
 5. __Sending Messages with Twilio__
-I utilized Twilio's API to send WhatsApp messages. By integrating Twilio's messaging service, I automated notifications for weather conditions.
+I utilized Twilio's API to send WhatsApp/SMS messages. By integrating Twilio's messaging service, I automated notifications for weather conditions.
